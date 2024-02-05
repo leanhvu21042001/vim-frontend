@@ -3,7 +3,7 @@ if &compatible
   endif
 filetype off
 " append to runtime path
-set runtimepath+=~/.vim/bundle/repos/github.com/Shougo/dein.vim
+set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
 " initialize dein, plugins are installed to this directory
 call dein#begin(expand('~/.cache/dein'))
 
